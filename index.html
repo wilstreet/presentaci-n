@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="brains.js"></script>
+    
+</head>
+<body>
+    <nav class="menu" id="myMenu">
+        <a href=#myMenu>Inicio</a>
+        <a href="#servicio">Servicios</a>
+        <a href="#contacto" >Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="menu()">
+          <img src="./img/menu.png" alt="">
+        </a>
+      </nav>
+
+
+      <p style="text-align:center">Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida. </p>
+        
+      <div class="parallax"></div>
+      
+      <div style="height:500px;background-color:#B3B7B7;font-size:36px">
+         Gracias por visitar este breve trabajo, este es una muestra de desarrollo web, estoy muy agradecido de tenerlos aquí.
+      </div>
+
+
+
+
+
+      <section>
+    
+
+        <h2 style="text-align:center"id="servicio">Servicios</h2>
+        
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/fondo.jpeg" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/fondo4.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/fondo5.jpg"style="width:100%">
+          </div>
+            
+         
+        
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="./img/fondo.jpeg" style="width:80%" onclick="currentSlide(1)" alt="Desarrollo web">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./img/fondo4.jpg" style="width:80%" onclick="currentSlide(2)" alt="Eventos empresariales">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./img/fondo5.jpg" style="width:80%" onclick="currentSlide(3)" alt="Marketing">
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+    
+
+      <footer class="pie">
+        <h2 style="text-align:center"id="contacto">Contacto</h2>
+          <ul >
+              <li> 
+                 <a href="https://wa.me/573104822764"> <img class="logo" src="./img/ws.png"></a>
+              </li>
+              <li> 
+                 <a href="https://www.linkedin.com/in/wil-londo%C3%B1o/"> <img class="logo" src="./img/in.png   "></a>
+              </li>
+              <li> 
+                  <a href="https://twitter.com/@wil74800625"><img class="logo" src="./img/twit.png"></a>
+              </li>
+              <li> 
+                <a href="#myMenu"><img class="logo" src="./img/flecha.png"></a>
+            </li>
+          </ul>
+
+      </footer>
+
+
+
+
+
+</body>
+</html>
